@@ -11,4 +11,7 @@ export class GreenixComponent {
   imagePath2: string = 'assets/c.jpg';
   imagePath3: string = 'assets/b.jpg';
   imagePath4: string = 'assets/k.jpg';
+  phoneNumber = '55759343';
+  email = 'contact.greenix@gmail.com';
+  currentYear = new Date().getFullYear();
 }

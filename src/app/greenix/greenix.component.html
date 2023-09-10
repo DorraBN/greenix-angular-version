@@ -4,7 +4,7 @@
 	
 <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 <script src="https://mediafiles.botpress.cloud/1f2fdfed-755e-4fbb-befd-4a848c273157/webchat/config.js" defer></script>
-    
+<header>
   <nav class="navbar" style=" margin-top: 0px;" id="nav">
   
   <div class="menu-bar">
@@ -74,7 +74,7 @@
         </p>
         <a class="button" href="#">En savoir plus</a>
     </section>
-  </main>
+  </main></header>
 
   
       <section id="about">
@@ -282,46 +282,87 @@
  
   
   </section>
-  
-       
-
-  <footer  class="footer">
-        
-    <div class="contenu-footer">
-      <img src="logo.png" alt="" width="20%" height="10%"> 
-        <div class="bloc footer-services">
-           
-            <ul class="liste-services" style="margin-left: 50px;">
-                <h3 style="margin-right: 110px;"> services</h3>
-                <li style="font-size: 15px;"><a href="">stratégie digitale</a></li><br>
-                <li   style="font-size: 15px;"> <a href="">Gestion de communauté</a></li><br>
-                <li  style="font-size: 15px;"><a href="">Création des sites web</a></li><br>
-                <li  style="font-size: 15px;"><a href="">Publication sur réseaux sociaux</a></li><br>
-                <li  style="font-size: 15px;"><a href="">Analyse web</a></li><br>
-            </ul>
-        </div>
-        
-        <div class="bloc footer-services">
-          <ul class="liste-services" style="margin-left: 50px;">
-            <h3>Restons en contact</h3>
-            <p><ion-icon name="call"></ion-icon>Tél:55759343</p>
-            <p><ion-icon name="mail"></ion-icon>Email:contact.greenix@gmail.com</p>
-           
-        </div>
-        <div class="bloc footer-services">
-          <ul class="liste-services" style="margin-left: 50px;">
-          
-          <h3>Réseaux</h3>
-          <ul class="social-links">
-            <li><a href="#" class="facebook"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
-          </ul>
-        </div>
-    </div>
-  
-    <div    class="p"><br><p   style="margin-left: 485px; margin-bottom: 0px;">&copy;2023 greenix -tous les droits sont réservés</p></div>
+  <div class="container1" id="mo">
+    <a href="l.html" class="btn1">PLUS D'INFORMATIONS</a>
   </div>
+  <section class="faq-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img
+            aria-hidden="true"
+            class="img-fluid"
+            src="assets/login-office.jpeg"
+            alt="Office"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="contact-info">
+            <div class="contact-form">
+              <h3 class="title">Mettons-nous en contact</h3>
+              <div class="contact-form">
+                <form action="https://formspree.io/f/xoqodvao" method="POST">
+                  <h3 class="title">Contactez-nous</h3>
+                  <div class="input-container">
+                    <input type="text" name="nom" class="form-control" placeholder="Nom et prénom">
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="form-control" placeholder="Numéro du téléphone">
+                  </div>
+                  <div class="input-container">
+                    <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <input type="submit" value="Envoyer" class="btn btn-primary">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
+  </section>
   
+  
+
+
+
+          <footer class="footer">
+            <div class="contenu-footer">
+              <img src="assets/logo.png" alt="" width="20%" height="10%">
+              <div class="bloc footer-services">
+                <ul class="liste-services" style="margin-left: 50px;">
+                  <h3 style="margin-right: 110px;">Services</h3>
+                  <li style="font-size: 15px;"><a href="#">Stratégie digitale</a></li>
+                  <li style="font-size: 15px;"><a href="#">Gestion de communauté</a></li>
+                  <li style="font-size: 15px;"><a href="#">Création de sites web</a></li>
+                  <li style="font-size: 15px;"><a href="#">Publication sur réseaux sociaux</a></li>
+                  <li style="font-size: 15px;"><a href="#">Analyse web</a></li>
+                </ul>
+              </div>
+          
+              <div class="bloc footer-services">
+                <ul class="liste-services" style="margin-left: 50px;">
+                  <h3>Restons en contact</h3>
+                  <p>Tél: {{ phoneNumber }}</p>
+                  <p>Email: {{ email }}</p>
+                </ul>
+              </div>
+          
+              <div class="bloc footer-services">
+                <ul class="liste-services" style="margin-left: 50px;">
+                  <h3>Réseaux</h3>
+                  <ul class="social-links">
+                    <li><a href="#" class="facebook"></a></li>
+                    <li><a href="#" class="twitter"></a></li>
+                    <li><a href="#" class="linkedin"></a></li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="p"><br><p style="margin-left: 485px; margin-bottom: 0px;">&copy;{{ currentYear }} greenix - Tous les droits sont réservés</p></div>
+          </footer>
+          

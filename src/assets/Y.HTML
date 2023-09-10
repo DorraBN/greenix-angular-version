@@ -1,0 +1,139 @@
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+
+<body>
+    
+
+<div class="menu-bar">
+
+<ul>
+    <img src="logo.png" alt="" width="7%"height="15%" style="margin-top: 0px;" >
+  
+    <li class="active"><a href=""> <i class="fa fa-home"></i>home</a></li>
+    <li ><a href=""><i class="fa fa-user"></i> about us</a>
+    <div class="sub-menu-l">
+        <ul>
+            
+            <li><a href="">mission</a></li>
+     <li class="hover-me">      <a href="">a propos</a> <i class="fa fa-angle-right"></i>
+    <div class="sub-menu-2">
+        <ul>
+            <li><a href="">découvrir greenix</a></li>
+            <li><a href="">pourquoi greenix greenix</a></li>
+        
+        </ul>
+    </div>
+    
+    </li>
+            <li><a href="">vision</a></li>
+        </ul>
+    </div>
+    </li>
+    <li   ><a href=""><i class="fa fa-clone"></i>services</a>
+        <div class="sub-menu-l">
+            <ul>
+                <li><a href="">stratégie digitale</a></li>
+              
+                        <li><a href="">création des sites web</a></li>
+                        <li><a href="">community management</a></li>
+                
+                <li><a href="">publicité sur réseaux sociaux</a></li>
+                <li><a href="">Analys du web</a></li>
+            </ul>
+        </div></li>
+    <li ><a href=""><i class="fa fa-users"></i>client</a></li>
+   
+    <li  ><a href=""><i class="fa fa-phone"></i>contact</a></li>
+</ul></div></body>
+
+
+<style>
+    *{padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+    body{
+        background-image: url('m.jpg');
+        background-size: cover;
+        background-position: center;
+      
+        font-family: sans-serif;
+    }
+
+    .menu-bar{
+        background: rgb(0,100,0);
+        text-align: center;
+        color: #fff;
+    }
+    .menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+        color: #fff;
+    }
+    .menu-bar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+    }
+    .menu-bar ul li a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .active,  .menu-bar ul li:hover{
+   background: #2bab0d;
+   border-radius: 3px;
+    }
+
+    .menu-bar .fa{
+        margin-right: 8px;
+    }
+
+    .sub-menu-l{
+        display: none;
+    }
+    .menu-bar  ul li:hover .sub-menu-l{
+        display: block;
+        position: absolute;
+        background: rgb(0, 100, 0);
+        margin-top: 15px;
+        margin-left: -15px;
+
+    }
+    .menu-bar  ul li:hover .sub-menu-l ul{
+        display: block;
+        margin: 10px;
+    }
+    .menu-bar  ul li:hover .sub-menu-l li{
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+
+
+    .menu-bar  ul li:hover .sub-menu-l li:last-child
+    {
+        border-bottom: none;
+    }
+    .menu-bar  ul li:hover .sub-menu-l li a:hver{
+        clear: #b2ff00;
+    }
+    .sub-menu-2{
+display: none;
+    }
+    .hover-me:hover .sub-menu-2{
+        position: absolute;
+        display: block;
+        margin-top: -40px;
+        margin-left: 140px;
+        background: rgb(0,100,0);
+    }
+    .fa-angle-right{
+        float: right;
+    }
+</style>
