@@ -109,53 +109,7 @@
 
 
 
-<h1 style="text-align: center;" id="ser">NOS SERVICES</h1>
-<hr style="height: 10px;width: 40%;margin-left: 470px;font-weight: 500;color: #000;" class="c">
- <div class="offers-container" id="#k">
-    <div class="offer">
-      <div class="content">
-      <img src="assets/st.png" alt="Offre 1">
-    
-      <h3>Stratégie digitale</h3>
-      <p>Boostez votre présence digitale et votre ROI avec l'implémentation de stratégies de communication innovantes et sur-mesure. Notre équipe en marketing digital vous accompagne pour vous orienter vers une stratégie omnicanale et financièrement pertinente.</p>
-    </div>
-    <img class="hover-image" src="assets/1.png" alt="Image au survol"></div>
-    <div class="offer">
-      <div class="content">
-      <img src="assets/3.png" alt="Offre 2">
-      <h3>Gestion de communauté</h3>
-      <p>Notre agence marketing met à votre disposition des Community Managers experts et à votre service. Sachant gérer les réseaux sociaux, ils travaillent, optimisent et mettent en place une stratégie digitale engageante et créative.</p>
-    </div>
-    <img class="hover-image" src="assets/deux.png" alt="Image au survol"></div>
-    
-    <div class="offer">
-      <div class="content">
-      <img src="assets/4.png" alt="Offre 3">
-      <h3>Création des sites web</h3>
-      <p>Créez un site esthétique et performant pour présenter votre activité, ou un site e-commerce optimisé pour la conversion du trafic pour vendre vos produits en ligne grâce à pure clic, notre agence marketing ! Nous vous aidons à concevoir votre site.</p>
-    </div>    <img class="hover-image" src="assets/trois.png" alt="Image au survol">
-  </div>
-    <div class="offer">
-      <div class="content"><br>
-      <img src="assets/5.png" alt="Offre 4"> 
-      <h3>Publicité sur réseaux sociaux</h3>
-      <p>Créez des campagnes Social média Ads (Sponsoring) mieux ciblées pour générer plus de vente en ligne. Ciblez des audiences potentiellement intéressées par vos produits et services en travaillant vos placements publicitaires sur les réseaux sociaux, et améliorez votre image de marque.</p>
-    </div>    <img class="hover-image" src="assets/quatre.png" alt="Image au survol"></div>
-    
-    <div class="offer">
-      <div class="content"><br>
-      <img src="assets/2.png" alt="Offre 5">
-      <h3>Veille stratégique</h3>
-      <p>Fournir des informations et des analyses précieuses sur les tendances émergentes, les comportements des consommateurs et effectue une surveillance continue des marchés, des concurrents et des technologies. Avec notre service de veille stratégique, nous aidons nos clients à identifier de nouvelles opportunités, à adapter leurs stratégies et à maximiser leur impact sur le marché.</p>
-    </div><img class="hover-image" src="assets/cinq.png" alt="Image au survol"></div>
-    
-    <div class="offer">
-      <div class="content">
-      <img src="assets/8.png" alt="Offre 6">
-      <h3>Analyse du web</h3>
-      <p>L'analyse de l’audience de votre site web permet de faire ressortir des opportunités d’amélioration et vous donne les clés pour prendre des décisions stratégiques pour la réussite de votre activité en ligne. Notre agence vous aide à tirer avantage des informations collectées sur vos supports digitaux.</p>
-    </div><img class="hover-image" src="assets/six.png" alt="Image au survol"></div>
-</div>
+<app-services></app-services>
   
 
 
@@ -282,51 +236,54 @@
  
   
   </section>
-  <div class="container1" id="mo">
-    <a href="l.html" class="btn1">PLUS D'INFORMATIONS</a>
-  </div>
-  <section class="faq-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <img
-            aria-hidden="true"
-            class="img-fluid"
-            src="assets/login-office.jpeg"
-            alt="Office"
-          />
-        </div>
-        <div class="col-md-6">
-          <div class="contact-info">
-            <div class="contact-form">
-              <h3 class="title">Mettons-nous en contact</h3>
-              <div class="contact-form">
-                <form action="https://formspree.io/f/xoqodvao" method="POST">
-                  <h3 class="title">Contactez-nous</h3>
-                  <div class="input-container">
-                    <input type="text" name="nom" class="form-control" placeholder="Nom et prénom">
-                  </div>
-                  <div class="input-container">
-                    <input type="email" name="email" class="form-control" placeholder="Email">
-                  </div>
-                  <div class="input-container">
-                    <input type="tel" name="phone" class="form-control" placeholder="Numéro du téléphone">
-                  </div>
-                  <div class="input-container">
-                    <textarea name="message" class="form-control" placeholder="Message"></textarea>
-                  </div>
-                  <input type="submit" value="Envoyer" class="btn btn-primary">
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
 
+  
+  <div class="container">
+
+
+<div class="row col-6">
+
+
+
+
+
+
+
+    
+    <div class="contact-info">
+        <div class="contact-form">
+            <br><br>
+            <h3 class="title" style="margin-left: 70px;">Mettons-nous en contact</h3>
+        </div>
+       
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xoqodvao" method="POST">
+                <h3 class="title">Contactez-nous</h3>
+                <div class="input-container">
+                    <input type="text" name="nom" class="input" placeholder="Nom et prénom">
+                    <label for="">Nom et prénom</label>
+                </div>
+                <div class="input-container">
+                    <label for="">Email</label>
+                    <input type="email" name="email" class="input" placeholder="Email">
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="phone" class="input" placeholder="Numéro du Téléphone">
+                    <label for="">Numéro du Téléphone</label>
+                </div>
+                <div class="input-container textarea">
+                    <textarea name="message" class="input" placeholder="Message"></textarea>
+                    <label for="">Message</label>
+                </div>
+                <input type="submit" value="Envoyer" class="btn">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
 
 
           <footer class="footer">

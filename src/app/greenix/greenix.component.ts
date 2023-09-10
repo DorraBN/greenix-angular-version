@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./greenix.component.css']
 })
 export class GreenixComponent {
-  imagePath: string = 'assets/gr.jpg';
+ imagePath: string = 'assets/gr.jpg';
   imagePath1: string = 'assets/d.jpg';
   imagePath2: string = 'assets/c.jpg';
   imagePath3: string = 'assets/b.jpg';

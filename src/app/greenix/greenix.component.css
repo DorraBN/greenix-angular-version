@@ -90,13 +90,7 @@
           }
 
            /*SERVICES*/
-           .offers-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            padding: 20px;
-          }
-        
+           
        
         
           .offer {
@@ -116,16 +110,6 @@
             transition: transform 0.5s ease;
           }
         
-        .offer .hover-image {
-            position: absolute;
-            top: 95px;
-            left: 155px;
-            width: 50%;
-            height: 30%;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            justify-content: center;
-          }
         
           .offer:hover {
             transform: scale(2.05);

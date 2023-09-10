@@ -1,17 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { ChatbotComponent } from './chatbot.component';
 
-import { GreenixComponent } from './greenix.component';
-
-describe('GreenixComponent', () => {
-  let component: GreenixComponent;
-  let fixture: ComponentFixture<GreenixComponent>;
+describe('ChatbotComponent', () => {
+  let component: ChatbotComponent;
+  let fixture: ComponentFixture<ChatbotComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GreenixComponent]
+      declarations: [ChatbotComponent]
     });
-    fixture = TestBed.createComponent(GreenixComponent);
+    fixture = TestBed.createComponent(ChatbotComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
