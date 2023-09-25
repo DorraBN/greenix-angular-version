@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './greenix.component.html',
   styleUrls: ['./greenix.component.css']
 })
+
 export class GreenixComponent {
   
  imagePath: string = 'assets/gr.jpg';

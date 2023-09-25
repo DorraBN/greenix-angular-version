@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GreenixComponent } from './greenix/greenix.component';
@@ -22,9 +24,19 @@ import 'ionicons';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+import { trigger, transition, style, animate } from '@angular/animations';
+
+export const fadeIn = trigger('fadeIn', [
+  transition(':enter', [
+    style({ opacity: 0, transform: 'translateY(20px)' }),
+    animate('300ms ease-out', style({ opacity: 1, transform: 'translateY(0)' })),
+  ]),
+]);
