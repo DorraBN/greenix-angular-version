@@ -153,7 +153,7 @@
                         /*Question*/
                         #special-section {
                             position: relative;
-                            background-image: url('assets/gr.jpg');
+                            background-image: url('src/assets/gr.jpg');
                             background-size: cover;
                             color: #fff;
                             padding: 100px 0;
@@ -572,86 +572,7 @@
 
 
                     
-                    .footer-contact h3,
-                    .footer-services h3,
-                    .footer-medias h3{
-                    font-size: 25px;
-                    padding-bottom: 20px;
-                    }
-                    .footer-contact p{
-                    padding: 5px 0;
-                    }
-                    .liste-services,
-                    .liste-media{
-                    list-style-type: none;
-                    
-                    
-                    }
-                    .liste-services li{
-                    padding: 2px 0;
-                    align-items: center;
-                    display: block;
-                    }
-                    .liste-services a{
-                    text-decoration: none;
-                    color:  #fff;
-                    }
-                    .liste-services a:hover{
-                    color: rgb(3,3,3);
-                    }
-                    .liste-media a:hover{
-                    color: rgb(3,3,3);
-                    }
-                    .liste-media{
-                    position: relative;
-                    right: 10px;
-                    }
-                    .liste-media a{
-                    text-decoration: none;
-                    color: #fff;
-                    display: flex;
-                    align-items: center;
-                    font-size: 25px;
-                    }
-
-
-                    .p{
-                        justify-content: center;
-                        border-top: 2px solid rgb(231, 229, 229);
-                        background-color: transparent;
-                        font-size: 20px;
-                      border-spacing: 20px;
-                      max-width: 1800px;
-                      height: 40px;
-                      width: 1565px;
-                      padding-right: 350px;
-                      
-                      
-                      }
-                           .contenu-footer{
-                            width: 1000px;
-                            margin: 0 auto;
-                            display: flex;
-                            justify-content: center;
-                            align-items: flex-start;
-                            font-size: 20px;
-                            padding: 30px 0 100px;
-                        }
-                        
-                          #in{
-                                     box-shadow: 0px 0px 50px #000;
-                                     background-color: #d8811eda;
-                                     width: 200%;
-                                   border-radius: 30px;
-                               margin-top: 85px;
-                                     
-                                    }
-                          .container1 {
-                            margin-top: 200px;
-                              display: flex;
-                              align-items: center;
-                              justify-content: center;
-                            }
+                  
                       
                             .dot {
                               width: 10px;
@@ -853,192 +774,10 @@
                           color: #de8517;
                           transition: all 0.5s ease;
                         }
-                        
-                        .footer {
-                            background-color: #2d2c2c;
-                            color: #fff;
-                            padding: 40px 0;
-                            border-top: #2d2c2c;
-                            border-radius: 80px;
-                            overflow: hidden;
-                            bottom: 0px;
-                            display: block;
-                            border-radius: 50px 50px 0 0;
-                            overflow: hidden;
-                          }
-                          
-                          .footer h3 {
-                            color: #fff;
-                          }
-                          
-                          .footer p {
-                            color: #ccc;
-                          }
-                          
-                          .social-links {
-                            list-style: none;
-                            padding: 0;
-                          }
-                          
-                          .social-links li {
-                            display: inline-block;
-                            margin-right: 10px;
-                          }
-                          
-                          .social-links a {
-                            color: #fff;
-                            font-size: 24px;
-                          }
-                          
-                          .social-links a:hover {
-                            color: #ccc;
-                          }
+                      
       /*formulaire*/
                     
-                    
-      form .container{
-        position: relative;
-        width: 780%;
-        min-height: 100vh;
-        padding: 2rem;
-        background-color: #b4c1c4;
-       overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    
-       
-    }
-    
-    
-    .form{
-        width: 100%;
-        max-width: 920px;
-    
-        background-color: #b4c1c4;
-        border-radius: 10px;
-        box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
-        z-index: 1000;
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-    .contact-form{
-        background-color: #b78f38;
-        position: relative;
-        width: 520px;
-    overflow:hidden ;
-    }
-    
-    
-    
-    .contact-form:after{
-    content: "";
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    overflow: hidden;
-    top: 50px;
-    left: -13px;
-    }
-    form{
-        padding: 2.3rem 2.2rem;
-        z-index: 10;
-        overflow: hidden;
-        position: relative;
-    
-    }
-    .title{
-        color: #fff;
-        font-weight: 500;
-        font-size: 1.5rem;
-    line-height: 1;
-    margin-bottom: 0.7rem;
-    margin-left: 50px;
-    
-    }
-    
-    .input-container{
-        position: relative;
-        margin: 1rem 0;
-    }
-    label{
-        display: none;
-    }
-    
-    .input{
-        width: 100%;
-        outline: none;
-        border: 2px solid #fafafa;
-        background: none;
-        padding: 0.6rem 1.2rem;
-        color: #fff;
-        font-weight: 500;
-        font-size: 0.95rem;
-        letter-spacing: 0.5px;
-        border-radius: 25px;
-        transition: 0.3s;
-    }
-    
-    textarea.input{
-    padding: 0.8rem 1.2rem;
-    min-height: 150px;
-    border-radius: 22px;
-    resize: none;
-    overflow-y: auto;
-    }
-    .input-container  label{
-        position: absolute;
-        top: 50%;
-        left: 15px;
-        transform: translateY(-50%);
-        padding: 0 0.4rem;
-        color: #fafafa;
-        font-size: 0.9rem;
-        font-weight: 400;
-        pointer-events: none;
-        z-index: 1000;
-        transition: 0.5s;
-    
-    }
-    
-    .btn{
-        padding: 0.6rem 0.9rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
-        font-size: 0.75px;
-        color: #1abc9c;
-        line-height: 1;
-        border-radius: 15px;
-        outline: none;
-        cursor: pointer;
-        transition: 0.3s;
-        margin: 0;
-        width: 80px;
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        align-items: center;
-        padding-left: 12px;
-    }
-    .btn:hover{
-        background-color: transparent;
-        color: #fff;
-    }
-    .contact-info:before{
-        content: "";
-        position: absolute;
-        width: 110px;
-        border-radius: 50%;
-        height: 100px;
-    border: 22px,solid #e69d43;
-    right: 50px;
-    bottom: -77px;
-    opacity: 0.3;
-    
-    }
+
     .change_content:after {
         content: "";
         animation: changetext 10s infinite linear;
@@ -1055,7 +794,29 @@
         animation: changebackground 10s ease infinite;
       }
      
-    
+      .animation {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: #dc930b;
+        border-radius: 100%;
+        animation: scaleAnimation 2s ease-in-out infinite alternate;
+      }
+      
+      @keyframes scaleAnimation {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.2);
+        }
+      }
       @keyframes changetext {
         0% {
           content: "business";
@@ -1075,13 +836,13 @@
         background-image: url('src/assets/d.jpg');
       }
       35% {
-        background-image: url('assets/c.jpg');
+        background-image: url('src/assets/c.jpg');
       }
       70% {
-        background-image: url('assets/b.jpg');
+        background-image: url('src/assets/b.jpg');
       }
       100% {
-        background-image: url('assets/k.jpg');
+        background-image: url('src/assets/k.jpg');
        
       }
       

@@ -42,6 +42,13 @@
   background-color: #db9e34;
 }
   
+p{
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  text-align: justify;
+  padding: 10px;
+}
         
           .offer img {
             max-width: 20%;

@@ -1,0 +1,49 @@
+<div class="container1" id="mo"> <a href="l.html" class="btn1">PLUS D'INFORMATIONS</a></div><section class="faq-section"><br><br>
+  <div class="split-container" id="dec">
+    <!-- Moitié gauche - Image -->
+    <div class="lest-half">
+      <img
+        aria-hidden="true"
+        class="object-cover w-full h-full dark:hidden"
+        src="assets/login-office.jpeg"
+        alt="Office"
+        style="width: 60%;height:100%;margin-left:260px;"
+      />
+    </div>
+  
+    <!-- Moitié droite - Formulaire de contact -->
+    <div class="right-half">
+      <div class="container">
+        <div class="contact-info">
+          <div class="contact-form">
+            <br /><br />
+            <h3 class="title" style="margin-left: 70px;">Mettons-nous en contact</h3>
+            <div class="contact-form">
+              <form [action]="'https://formspree.io/f/xoqodvao'" method="POST">
+                <h3 class="title">Contactez-nous</h3>
+                <!-- ... Reste du formulaire ... -->
+                <div class="input-container">
+                    <input type="text" name="nom" class="input" placeholder="Nom et prénom">
+                    <label for="">Nom et prénom</label>
+                  </div>
+                  <div class="input-container">
+                    <label for="">Email</label>
+                    <input type="email" name="email" class="input" placeholder="Email">
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" placeholder="Numéro du Téléphone">
+                    <label for="">Numéro du Téléphone</label>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input" placeholder="Message"></textarea>
+                    <label for="">Message</label>
+                  </div>
+                  <input type="submit" value="envoyer" class="btn">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>

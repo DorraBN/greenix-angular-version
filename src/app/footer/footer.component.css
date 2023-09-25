@@ -1,0 +1,126 @@
+.footer-contact h3,
+.footer-services h3,
+.footer-medias h3{
+font-size: 25px;
+padding-bottom: 20px;
+}
+.footer-contact p{
+padding: 7px 0;
+font-size: 6px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.liste-services,
+.liste-media{
+list-style-type: none;
+
+
+}
+.liste-services li{
+padding: 2px 0;
+align-items: center;
+display: block;
+}
+.liste-services a{
+text-decoration: none;
+color:  #fff;
+}
+.liste-services a:hover{
+color: rgb(3,3,3);
+}
+.liste-media a:hover{
+color: rgb(3,3,3);
+}
+.liste-media{
+position: relative;
+right: 10px;
+}
+.liste-media a{
+text-decoration: none;
+color: #fff;
+display: flex;
+align-items: center;
+font-size: 25px;
+}
+
+
+.p{
+    justify-content: center;
+    border-top: 2px solid rgb(231, 229, 229);
+    background-color: transparent;
+    font-size: 20px;
+  border-spacing: 20px;
+  max-width: 1800px;
+  height: 40px;
+  width: 1565px;
+  padding-right: 350px;
+  
+  
+  }
+    
+  .footer {
+    background-color: #2d2c2c;
+    color: #fff;
+    padding: 40px 0;
+    border-top: #2d2c2c;
+    border-radius: 80px;
+    overflow: hidden;
+    bottom: 0px;
+    display: block;
+    border-radius: 50px 50px 0 0;
+    overflow: hidden;
+  }
+  
+  .footer h3 {
+    color: #fff;
+  }
+  
+  .footer p {
+    color: #ccc;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Pour aligner horizontalement les éléments */
+    gap: 20px; /* Ajoutez un espacement horizontal entre les éléments */
+  }
+  
+  .social-links li {
+    display: inline-block; /* Pour aligner horizontalement les éléments */
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    font-size: 24px; /* Ajustez la taille de la police selon vos préférences */
+    color: #fff; /* Couleur des icônes */
+    transition: color 0.3s ease; /* Ajoutez une transition pour l'effet de survol */
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Couleur des icônes au survol */
+  }
+       .contenu-footer{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 20px;
+        padding: 30px 0 100px;
+    }
+    
+      #in{
+                 box-shadow: 0px 0px 50px #000;
+                 background-color: #d8811eda;
+                 width: 200%;
+               border-radius: 30px;
+           margin-top: 85px;
+                 
+                }
+      .container1 {
+        margin-top: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
