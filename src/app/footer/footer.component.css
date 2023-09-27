@@ -5,8 +5,8 @@ font-size: 25px;
 padding-bottom: 20px;
 }
 .footer-contact p{
-padding: 7px 0;
-font-size: 6px;
+padding: 4px 0;
+font-size: 4px;
 font-family: Arial, Helvetica, sans-serif;
 }
 .liste-services,
@@ -16,7 +16,7 @@ list-style-type: none;
 
 }
 .liste-services li{
-padding: 2px 0;
+padding: 5px 0;
 align-items: center;
 display: block;
 }
@@ -39,7 +39,7 @@ text-decoration: none;
 color: #fff;
 display: flex;
 align-items: center;
-font-size: 25px;
+font-size: 18px;
 }
 
 
@@ -47,7 +47,7 @@ font-size: 25px;
     justify-content: center;
     border-top: 2px solid rgb(231, 229, 229);
     background-color: transparent;
-    font-size: 20px;
+    font-size: 10px;
   border-spacing: 20px;
   max-width: 1800px;
   height: 40px;
@@ -70,12 +70,14 @@ font-size: 25px;
     overflow: hidden;
   }
   
-  .footer h3 {
+  .footer h5 {
     color: #fff;
+    font-size: 22px;
   }
   
   .footer p {
     color: #ccc;
+    font-size: 12px;
   }
   
   .social-links {

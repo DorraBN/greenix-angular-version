@@ -26,9 +26,9 @@ app.get('/envoyer-email', (req, res) => {
     res.json({ message: 'E-mail envoyé avec succès' });
   });
 // Route pour gérer la soumission du formulaire
-app.post('src/app/formulaire/envoyer-emailnode', (req, res) => {
+app.post('/envoyer-emailnode', (req, res) => {
   const { nom, email, phone, message } = req.body;
-
+  
   // Configuration de l'e-mail à envoyer
   const mailOptions = {
     from: 'dorransira18@gmail.com', // Adresse e-mail de l'expéditeur
@@ -55,7 +55,7 @@ app.post('src/app/formulaire/envoyer-emailnode', (req, res) => {
 });
 
 // Démarrage du serveur Node.js
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Serveur en cours d'exécution sur le port ${port}`);
 });

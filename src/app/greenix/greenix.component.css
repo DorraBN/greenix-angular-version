@@ -10,16 +10,18 @@
       
       
           .menu-bar{
-              background: #fff;
+              background: #f7df98;
               text-align: center;
               color: #fff;
               width: 100%;
               margin: 0;
+              border-radius: 8px;
           }
           .menu-bar ul{
               display: inline-flex;
               list-style: none;
               color: #000;
+              text-align: center;
           }
           .menu-bar ul li{
               width: 120px;
@@ -47,8 +49,9 @@
               display: block;
               position: absolute;
               background: rgb(228, 168, 46);
-              margin-top: 15px;
-              margin-left: -15px;
+              margin-top: 35px;
+              margin-left: 15px;
+              text-align: center;
       
           }
           .menu-bar  ul li:hover .sub-menu-l ul{
@@ -69,7 +72,7 @@
           {
               border-bottom: none;
           }
-          .menu-bar  ul li:hover .sub-menu-l li a:hver{
+          .menu-bar  ul li:hover .sub-menu-l li a:hover{
               clear: #cb9c10;
           }
           .sub-menu-2{
@@ -212,7 +215,7 @@
 
                           #about {
                             padding: 50px;
-                            margin-top: 300px;
+                            margin-top: 150px;
                           }
                           .container {
                             display: flex;
@@ -497,12 +500,18 @@
                                               font-size: 18px;
                                               line-height: 1.6;
                                               margin-bottom: 40px;
+                                           
+
                                             }
                                             .vision-animation {
                                               display: inline-block;
                                               font-size: 24px;
                                               transform-origin: center;
                                               animation: rotateAnimation 6s linear infinite;
+                                            }
+                                            @keyframes rotateAnimation {
+                                              0% { transform: rotate(0deg); }
+                                              100% { transform: rotate(360deg); }
                                             }
 
 
@@ -670,6 +679,7 @@
                         position: absolute;
                         bottom: 0;
                         left: 50%;
+                  
                         width: 20px;
                         height: 5px;
                         background-color: white;
