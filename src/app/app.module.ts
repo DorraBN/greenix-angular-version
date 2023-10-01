@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-
+import { ScrollComponent } from './scroll/scroll.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +20,9 @@ import 'ionicons';
     ChatbotComponent,
     ServicesComponent,
     FormulaireComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollComponent,
+    ScrollServiceComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,8 @@ import 'ionicons';
 })
 export class AppModule { }
 import { trigger, transition, style, animate } from '@angular/animations';
+
+import { ScrollServiceComponent } from './scroll.service/scroll.service.component';
 
 export const fadeIn = trigger('fadeIn', [
   transition(':enter', [

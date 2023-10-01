@@ -1,0 +1,30 @@
+/* scroll-to-top.component.css */
+
+:host {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+  }
+  
+  div {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  div:hover {
+    background-color: #2980b9;
+  }
+  
+  :host:hover div {
+    opacity: 1;
+  }
+  

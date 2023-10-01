@@ -10,7 +10,7 @@
       
       
           .menu-bar{
-              background: #f7df98;
+              background: #f1efea;
               text-align: center;
               color: #fff;
               width: 100%;
@@ -490,22 +490,37 @@
                                             .vision-container {
                                               text-align: center;
                                               padding: 100px 0;
+                                              background-color: #ffffff;
+                                              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                                             }
+                                            
                                             .vision-title {
                                               font-size: 36px;
                                               font-weight: bold;
                                               margin-bottom: 20px;
+                                              color: #2c3e50;
                                             }
+                                            
+                                            .vision-hr {
+                                              height: 2px;
+                                              width: 60%;
+                                              margin: 20px auto;
+                                              background-color: #3498db;
+                                              border: none;
+                                            }
+                                            
                                             .vision-text {
                                               font-size: 18px;
                                               line-height: 1.6;
                                               margin-bottom: 40px;
-                                           
-
+                                              color: #555;
                                             }
+                                            
                                             .vision-animation {
                                               display: inline-block;
-                                              font-size: 24px;
+                                              font-size: 36px;
+                                              color: #4CAF50;
+                                              opacity: 0.8;
                                               transform-origin: center;
                                               animation: rotateAnimation 6s linear infinite;
                                             }
