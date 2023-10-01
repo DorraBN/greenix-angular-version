@@ -10,7 +10,8 @@
       
       
           .menu-bar{
-              background: #f1efea;
+              background: #fff;
+              border-bottom:  solid #000  1px;
               text-align: center;
               color: #fff;
               width: 100%;
@@ -216,7 +217,27 @@
                           #about {
                             padding: 50px;
                             margin-top: 150px;
+                            background: linear-gradient(65deg, #8facea, #dbc4f1, #ffffff);
+                            background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
                           }
+
+                          @keyframes gradientAnimation {
+                            0% {
+                              background-position: 0% 50%;
+                            }
+                            50% {
+                              background-position: 100% 50%;
+                            }
+                            100% {
+                              background-position: 0% 50%;
+                            }
+                          }
+                         
+                          
+                          
+                          
+                          
                           .container {
                             display: flex;
                             align-items: center;
@@ -294,7 +315,7 @@
                           
                           
                                           #g{
-                                            background-color: #b78f38;
+                                            background-color: #d5a845;
                                           }
                                           body {
                             font-family: lato;
@@ -480,40 +501,27 @@
                                             }
                       
                       
-                                            body {
-                                              font-family: Arial, sans-serif;
-                                              margin: 0;
-                                              padding: 0;
-                                              background-color: #f4f4f4;
-                                              color: #333;
-                                            }
+                                           
+                                           
+                                            
                                             .vision-container {
                                               text-align: center;
                                               padding: 100px 0;
-                                              background-color: #ffffff;
-                                              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                                             }
-                                            
                                             .vision-title {
                                               font-size: 36px;
-                                              font-weight: bold;
+                                            text-align: center;
                                               margin-bottom: 20px;
-                                              color: #2c3e50;
                                             }
-                                            
-                                            .vision-hr {
-                                              height: 2px;
-                                              width: 60%;
-                                              margin: 20px auto;
-                                              background-color: #3498db;
-                                              border: none;
-                                            }
-                                            
                                             .vision-text {
-                                              font-size: 18px;
-                                              line-height: 1.6;
+                                              font-size: 20px;
+                                              line-height: 1.4;
                                               margin-bottom: 40px;
-                                              color: #555;
+                                         padding: 10px;
+                                         margin: 13px;
+                              
+                                           text-align: justify;
+
                                             }
                                             
                                             .vision-animation {
@@ -526,7 +534,7 @@
                                             }
                                             @keyframes rotateAnimation {
                                               0% { transform: rotate(0deg); }
-                                              100% { transform: rotate(360deg); }
+                                              100% { transform: rotate(360deg);translate: 480px; }
                                             }
 
 
@@ -547,9 +555,22 @@
                         box-sizing: border-box;
                         height: 100%;
                     }
+                        
+                    .left-half1, .right-half {
+                      flex: 1;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      padding: 60px;
+                      box-sizing: border-box;
+                      height: 100%;
+                  }
                     
+                    .left-half1 {
+                      background-color: #fcf8f8; /* Couleur de la moitié gauche */
+                  }
                     .left-half {
-                        background-color: #f7f7f7; /* Couleur de la moitié gauche */
+                        background-color: #e7dfdf; /* Couleur de la moitié gauche */
                     }
 
                     .values-container {

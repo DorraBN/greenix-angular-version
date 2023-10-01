@@ -2,13 +2,24 @@
 
 :host {
     position: fixed;
-    bottom: 20px;
-    right: 80px;
+    bottom: 50px;
+    right: 100px;
+   background-color: #3498db;
+   color: #0d0d0d;
+   font-size: 24px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   cursor: pointer;
+   
+   transition: opacity 0.3s ease-in-out;
   }
   
   div {
     background-color: #3498db;
-    color: #fff;
+    color: #ffffff;
     font-size: 24px;
     width: 40px;
     height: 40px;
