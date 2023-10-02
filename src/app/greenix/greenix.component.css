@@ -507,10 +507,13 @@
                                             .vision-container {
                                               text-align: center;
                                               padding: 100px 0;
+                                              background-color: #00a8cc;
                                             }
                                             .vision-title {
                                               font-size: 36px;
                                             text-align: center;
+                                            padding: 10px;
+                                            margin-top: 45px;
                                               margin-bottom: 20px;
                                             }
                                             .vision-text {
