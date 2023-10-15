@@ -22,7 +22,8 @@ import 'ionicons';
     FormulaireComponent,
     FooterComponent,
     ScrollComponent,
-    ScrollServiceComponent
+    ScrollServiceComponent,
+    DiscussComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +38,7 @@ export class AppModule { }
 import { trigger, transition, style, animate } from '@angular/animations';
 
 import { ScrollServiceComponent } from './scroll.service/scroll.service.component';
+import { DiscussComponent } from './discuss/discuss.component';
 
 export const fadeIn = trigger('fadeIn', [
   transition(':enter', [

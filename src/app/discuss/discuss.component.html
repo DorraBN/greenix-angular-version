@@ -1,0 +1,55 @@
+<div class="card">
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Form de discussion</h2>
+            </div>
+            <div class="col ml-auto text-right">
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-plus" aria-hidden="true"></i> Add question
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="badge badge-primary">admin</span>
+                <hr>
+                <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#editModal">
+                    <i class="fa fa-edit"></i> Edit
+                </button>&nbsp;
+                <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#deleteModal">
+                    <i class="fa fa-trash"></i> Delete
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<!-- ... (code du modal d'édition) -->
+
+<!-- Delete Modal -->
+<!-- ... (code du modal de suppression) -->
+
+<!-- Custom Modal for Displaying Question -->
+<div class="modal fade" id="questionModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="staticBackdropLabel">Question Details</h4>
+                <button class="btn-close" type="button" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="questionDetails">
+                <!-- Details will be dynamically added here -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
