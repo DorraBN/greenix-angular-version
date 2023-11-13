@@ -1,13 +1,9 @@
-
-
 .menu-items.active {
     display: block;
   }
-  
           *{padding: 0;
           margin: 0;
           box-sizing: border-box;}
-      
       
           .menu-bar{
               background: #fff;
@@ -34,7 +30,7 @@
             color: #000;
           }
         
-          .active,  .menu-bar ul li:hover{
+        .active,.menu-bar ul li:hover{
          background: #e2b04b;
          border-radius: 3px;
           }
@@ -94,9 +90,7 @@
           }
 
            /*SERVICES*/
-           
-       
-        
+          
           .offer {
             width: 80%;
             height: 320px;
@@ -114,11 +108,23 @@
             transition: transform 0.5s ease;
           }
         
-        
+    
           .offer:hover {
-            transform: scale(2.05);
+            transform: scale(0.01);
           }
-        
+          #f{
+            height: 40vh;
+            background-color: #e7eceb;
+            border-radius: 10px;
+            margin-left: 380px;
+            width: 50%;
+           
+            
+          }
+          #f:hover {
+            transform: translateY(-80px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+          }
           .offer .content {
             position: absolute;
             top: 0;
@@ -163,8 +169,6 @@
                             padding: 100px 0;
                             border-radius: 15px;
                           }
-                        
-                                
                           .background {
                             position: absolute;
                             top: 0;
@@ -176,7 +180,7 @@
                            
                             z-index: -1;
                           }
-                          
+               
                           .container3 {
                             display: flex;
                             justify-content: center;
@@ -286,6 +290,7 @@
                                               margin: 0;
                                               background-color: #f2f2f2;
                                           }
+                                      
                                           .image-container {
                                               display: flex;
                                               justify-content: center;
@@ -564,10 +569,10 @@
                   }
                     
                     .left-half1 {
-                      background-color: #fcf8f8; /* Couleur de la moitié gauche */
+                      background-color: #fff; /* Couleur de la moitié gauche */
                   }
                     .left-half {
-                        background-color: #e7dfdf; /* Couleur de la moitié gauche */
+                        background-color: #f2f2f2; /* Couleur de la moitié gauche */
                     }
 
                     .values-container {
@@ -635,15 +640,7 @@
                       
                       /* Ajoutez vos styles CSS ici */
                       
-                      .navbar {
-                        background-color: #fff;
-                        color: #000;
-                        padding: 10px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        margin-top: 0%;
-                      }
+                    
                       
                       nav {
                         background: #000;
@@ -807,10 +804,6 @@
                           border-radius: 10px;
                         }
                         
-                      
-                      
-                        
-                      
                         .change_content:after {
                           content: "";
                           animation: changetext 10s infinite linear;
@@ -830,11 +823,11 @@
       
       header {
         width: 100%;
-        height: 100vh;
+        height: 120vh;
        
         background-repeat: no-repeat;
         background-size: cover;
-        animation: changebackground 10s ease infinite;
+        animation: changebackground 20s ease infinite;
       }
      
       .animation {
@@ -875,12 +868,12 @@
        
       }
       @keyframes changebackground {
+      
       0% {
-        background-image: url('src/assets/d.jpg');
-      }
-      35% {
         background-image: url('src/assets/c.jpg');
       }
+     
+      
       70% {
         background-image: url('src/assets/b.jpg');
       }
